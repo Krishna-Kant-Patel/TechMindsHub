@@ -26,11 +26,11 @@ function Home() {
           <div className="menu">Jobs</div>
         </div>
         <div className="btns">
-          <Dropdown data-bs-theme="dark" className="drop" >
-            <Dropdown.Toggle variant="secondary">
-              Write a Post
-            </Dropdown.Toggle>
-          </Dropdown>
+        <select name="" id="" className="drop">
+          <option value="">Write a Post</option>
+          <option value="">reel</option>
+          <option value="">Story</option>
+        </select>
 
           <button className="kk">+ Join Group</button>
         </div>

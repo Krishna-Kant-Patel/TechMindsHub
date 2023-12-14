@@ -106,3 +106,12 @@ width: 100%;
   .dropdown-content a:hover {background-color: #f1f1f1;}
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover .dropbtn {background-color: #F8F9FA;}
+
+  @media(max-width: 800px){
+    .placecontainer{
+        display: none;
+    }
+    .cardContainer{
+        width: 100%;
+    }
+  }

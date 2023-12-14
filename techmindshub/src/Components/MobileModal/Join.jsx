@@ -7,7 +7,7 @@ function MydModalWithGrid(props) {
  
 console.log(props.signlog);
   return (
-    <Modal {...props} width={700} aria-labelledby="contained-modal-title-vcenter" >
+    <Modal className='kl' {...props} width={700} aria-labelledby="contained-modal-title-vcenter" >
       <Modal.Header closeButton>
       </Modal.Header>
       <Modal.Body className="grid-example">
@@ -16,7 +16,7 @@ console.log(props.signlog);
           <div className="create">
             {props.signlog ? <>
               <input className='logininput' type="text" placeholder='Email' />
-            <input className='logininput' type="text" placeholder='Password' />
+            <input type="text" placeholder='Password' />
             <button className="craccount">Log in</button>
             </>:<><h2>Create Account</h2>
             <div className="username">
@@ -30,7 +30,6 @@ console.log(props.signlog);
             
             <button className="social" style={{marginTop:'20'}}><img style={{marginRight:'20'}} width="20" height="20" src="https://img.icons8.com/fluency/48/google-logo.png" alt="google-logo"/> Google</button>
             <button className="social" ><img style={{marginRight:'20'}} width="20" height="20" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/> Facebook</button>
-          
           
           </div>
           
@@ -51,20 +50,20 @@ console.log(props.signlog);
   );
 }
 
-function Modallog() {
+function Join() {
   const [modalShow, setModalShow] = useState(false);
   const [signlog, setLog] = useState(true);
  
 
   return (
     <>
-      <a style={{ color: 'blue', cursor: 'pointer' }} onClick={() => setModalShow(true)}>
-        It's free
-      </a>
+      <p style={{cursor: 'pointer' }} onClick={() => setModalShow(true)}>
+        + Join Group
+      </p>
 
       <MydModalWithGrid show={modalShow} signlog={signlog} toggle={()=>setLog(!signlog)} onHide={() => setModalShow(false)} />
     </>
   );
 }
 
-export default Modallog;
+export default Join;

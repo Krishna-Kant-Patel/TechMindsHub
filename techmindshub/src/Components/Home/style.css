@@ -5,7 +5,7 @@
 }
 .homeImage{
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-image: url(https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: center;
@@ -20,7 +20,7 @@
     
     position: absolute;
     left: 80px;
-    top:250px;
+    top:280px;
 }
 .tabs{
     margin: auto;
@@ -32,6 +32,7 @@
     align-items: center;
     justify-content: space-evenly;
     border-bottom: 1px solid #b1c3d5;
+    overflow: hidden;
 }
 .box{
     
@@ -55,23 +56,28 @@
 }
 
 .drop{
+    border: none;
+    border-radius: 5px;
     height: 100%;
     width: 40%;
+    font-weight: bold;
     background: #DEE2E6;
     color: black;
     text-align: center;
     overflow: hidden;
     font-size: small;   
-
+     overflow: hidden;
 }
 
 
 .btns{
+    
     height: 100%;
     width: 26%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
 }
 .kk{
     border: none;
@@ -84,6 +90,7 @@
     margin-bottom: 1px;
     font-size: 13px;
     color:  #DEE2E6;
+    overflow: hidden
     ;
 
 }
@@ -127,11 +134,14 @@
     .tabs{
         display: none;
     }
+    .homeImage{
+        height: 300px;
+    }
     .text{
     
         position: absolute;
         left: 10px;
-        top:350px;
+        top:200px;
     }
     .mobiletab{
         margin: 15px;
