@@ -6,6 +6,8 @@
 .media{
     width: 100%;
     height: auto;
+    position: fixed;
+    z-index: 4;
 
 }
 .logo{
@@ -60,6 +62,8 @@
         display: none;
     }
     .navbar{
+        position: relative;
+        z-index: 4;
         font-size: small;
         height: 70px;
     }
@@ -75,9 +79,10 @@
     }
     .mobilebar{
         position: fixed;
+        z-index: 4;
         padding: 0 20px 0 20px;
         width: 100%;
-        height: 60px;
+        height: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
