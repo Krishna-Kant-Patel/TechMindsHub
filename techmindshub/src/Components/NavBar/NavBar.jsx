@@ -5,11 +5,11 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import './style.css'
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import Image from 'react-bootstrap/Image';
-
+import Modallog from '../Modal/Modal';
 
 function NavBar() {
   return (
-    <Navbar sticky="top" className="navbar d-flex justify-content-around" >
+    <Navbar sticky="top"  className="navbar d-flex justify-content-around" >
       <Container>
         <Navbar.Brand href="#home">ATG,W
         <img width={25} height={25} className='logo' src="https://img.freepik.com/free-psd/gradient-abstract-logo_23-2150689644.jpg?w=740&t=st=1702492980~exp=1702493580~hmac=1792ddb8dc73d8a39e4837dfe915fe1ceb12fc5782238fa404866b607e8e1d3d" />RLD</Navbar.Brand>
@@ -19,20 +19,15 @@ function NavBar() {
 
         
         <NavbarCollapse className=' search justify-content-center'>
-        <div className="justify-content-center" >
-        <InputGroup className="sm" >
-        <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
-        <Form.Control 
-          
-          placeholder="Search"
-        />
-      </InputGroup>
+        <div className="justify-content-center searchcontainer" >
+        <button className='Searchbtn'>@</button>
+        <input type="text" className="search" />
         </div>
 
         </NavbarCollapse>
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Create account: <a href="#login">It's free</a>
+            Create account: <Modallog/>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>

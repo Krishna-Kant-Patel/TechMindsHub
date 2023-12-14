@@ -1,0 +1,78 @@
+.para{
+    font-size: 10px;
+    color: green;
+}
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+
+}
+.create{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+.create h2{
+    font-size: 20px;
+
+}
+.username{
+    width: 100%;
+    
+}
+.username input {
+    border: 1px solid #CED4DA;  
+    width: 50%;
+    height: 50px;
+}
+input{
+    border: 1px solid #CED4DA;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+}
+.craccount {
+    margin-top: 10px;
+    border: none;
+    height: 15%;
+    width: 100%;
+    border-radius: 15px;
+    background: #339AF0;
+    color: #F8F9FA;
+
+}
+.social{
+    margin-top: 10px;
+    border: none;
+    height: 15%;
+    width: 100%;
+    border-radius: 5px;
+    background: #E9ECEF;
+}
+
+.image{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.signpara{
+    position: inherit;
+    font-size: 13px;
+    top: 0;
+    margin-left:15px;
+}
+
+.image img{
+    height: 70%;
+    width: 100%;
+
+}
+.footerpara{
+    font-size: 10px;
+}
