@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TechMindsHub/static/css/main.d882480f.css",
+    "main.js": "/TechMindsHub/static/js/main.0b6af17d.js",
+    "static/js/787.a305f759.chunk.js": "/TechMindsHub/static/js/787.a305f759.chunk.js",
+    "index.html": "/TechMindsHub/index.html",
+    "main.d882480f.css.map": "/TechMindsHub/static/css/main.d882480f.css.map",
+    "main.0b6af17d.js.map": "/TechMindsHub/static/js/main.0b6af17d.js.map",
+    "787.a305f759.chunk.js.map": "/TechMindsHub/static/js/787.a305f759.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d882480f.css",
+    "static/js/main.0b6af17d.js"
+  ]
+}
