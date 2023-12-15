@@ -10,7 +10,7 @@ function NavBar({appfn}) {
     <>
     <div className="mobilebar">
       <button className="arrow"><img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/long-arrow-left.png" alt="long-arrow-left"/></button>
-      <button className="join"><Join/></button>
+      <button className="join"><Join appfn ={appfn}/></button>
     </div>
     <div className="media">
     <Navbar sticky="top"  className="navbar d-flex justify-content-around" >
