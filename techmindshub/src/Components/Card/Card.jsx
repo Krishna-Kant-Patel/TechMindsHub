@@ -1,10 +1,9 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './style.css';
 import Places from '../Places/Places';
 
-function Cards() {
+function Cards({log}) {
   return (
    <div className="maincontainer">
    
@@ -46,7 +45,7 @@ function Cards() {
         <Card.Text>Article</Card.Text>
         <div className="title">
         <Card.Title>
-        What if famous brands had regular fonts? Meet RegulaBrands!
+        Tax Benefits for Investment under National Pension Scheme launched by Government
         
         </Card.Title>
         <div className="dropdown" >
@@ -77,7 +76,7 @@ function Cards() {
         <Card.Text>Article</Card.Text>
         <div className="title">
         <Card.Title>
-        What if famous brands had regular fonts? Meet RegulaBrands!
+        Finance & Investment Elite Social Mixer @Lujiazui
         
         </Card.Title>
         <div className="dropdown" >
@@ -168,7 +167,7 @@ function Cards() {
       
     
     </div>
-    <div className="placecontainer"><Places/></div>
+    <div className="placecontainer"><Places log={log}/></div>
     
    </div>
   )

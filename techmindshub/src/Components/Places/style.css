@@ -33,9 +33,54 @@
     font-size: 13px;
     text-align: center;
 }
+.recommend{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+
+}
+
+.people{
+    height: 60px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profiledetail{
+    height: 100%;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profiledetail p{
+    margin-top: 10px;
+}
+.Rprofile{
+    height: 50%;
+    width: 15%;
+
+}
+.follow{
+    border: none;
+    border-radius: 15px;
+    height: 50%;
+    width: 30%;
+    text-align: center;
+    font-size: 12px;
+}
 .warning{
     margin-top: 25px;
-    font-size: 10px;
+    font-size: 14px;
+}
+.seemore{
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20%;
 }
 @media(max-width:970px){
 .placeinput{

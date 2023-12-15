@@ -5,7 +5,7 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import Modallog from '../Modal/Modal';
 import Join from '../MobileModal/Join';
 
-function NavBar() {
+function NavBar({appfn}) {
   return (
     <>
     <div className="mobilebar">
@@ -31,7 +31,7 @@ function NavBar() {
         </NavbarCollapse>
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Create account: <Modallog/>
+             <Modallog appfn ={appfn}/>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
